@@ -1,0 +1,37 @@
+header {
+  font-size: 45px;
+  font-family: helvetica;
+  text-align: center;
+}
+
+#board {
+  width: 575px;
+  height: 575px;
+  padding: 15px;
+  margin: 40px auto;
+  border: outset;
+  background: gray;
+  overflow: auto;
+}
+
+#board div {
+  width: 400px;
+  margin: 10px;
+  clear: both;
+}
+
+#board button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  display: block;
+  border: inset;
+}
+
+#playerMessage {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 25px;
+  padding: 15px;
+}
